@@ -7,7 +7,7 @@
 
 ; returns: список, в котором элементы увеличены в N раз.
 ; warning: Если элемент - список, то все его элементы умножаются на N.
-;          Прим. (multyplyAllElemnts '(1 (1(1)) 1) 2) Вывод: (1 (2(2)) 1) 2 2 1 2)
+;          Прим. (multyplyAllElemnts '(1 (1(1)) 1) 2) Вывод: (1 (2(2)) 1)
 (defun multyplyAllElemnts(numbers N)
   (cond
       ((null numbers) ())
